@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBCVModelStoreContainer" CdmEntityContainer="DBCVEntities">
+    <EntitySetMapping Name="TBLABOUT">
+      <EntityTypeMapping TypeName="DBCVModel.TBLABOUT">
+        <MappingFragment StoreEntitySet="TBLABOUT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="INFO" ColumnName="INFO" />
+          <ScalarProperty Name="EDUCATION" ColumnName="EDUCATION" />
+          <ScalarProperty Name="EXPERIENCE" ColumnName="EXPERIENCE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLCONTACT">
+      <EntityTypeMapping TypeName="DBCVModel.TBLCONTACT">
+        <MappingFragment StoreEntitySet="TBLCONTACT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TELEPHONE" ColumnName="TELEPHONE" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="LOCATION" ColumnName="LOCATION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSKILL">
+      <EntityTypeMapping TypeName="DBCVModel.TBLSKILL">
+        <MappingFragment StoreEntitySet="TBLSKILL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SKILL" ColumnName="SKILL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLWORKS">
+      <EntityTypeMapping TypeName="DBCVModel.TBLWORKS">
+        <MappingFragment StoreEntitySet="TBLWORKS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
