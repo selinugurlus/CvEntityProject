@@ -7,15 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace CvEntityProject
 {
-    public partial class Experience : System.Web.UI.Page
+    public partial class DeleteEducation1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             DBCVEntities db = new DBCVEntities();
-            Repeater1.DataSource = db.TBLABOUT.ToList();
-            Repeater1.DataBind();
-
-
+            int x = Convert.ToInt32(Request.QueryString["ID"]);
+            var edu = db.TBLABOUT.Find(x);
+            db.TBLABOUT.Remove(edu);
+            db.SaveChanges();
+            Response.Redirect("Education.Aspx");
         }
     }
 }

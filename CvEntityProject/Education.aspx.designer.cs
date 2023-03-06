@@ -11,7 +11,7 @@ namespace CvEntityProject
 {
 
 
-    public partial class Experience
+    public partial class Education
     {
 
         /// <summary>

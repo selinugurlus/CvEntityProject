@@ -75,9 +75,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddEducation.aspx" />
+    <Content Include="AddExperience.aspx" />
     <Content Include="AddSkill.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="DeleteEducation.aspx" />
+    <Content Include="DeleteExperience.aspx" />
+    <Content Include="UpdateEducation.aspx" />
     <Content Include="DeleteSkill.aspx" />
+    <Content Include="Education.aspx" />
     <Content Include="Skill.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Experience.aspx" />
@@ -92,6 +98,7 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="UpdateContact.aspx" />
+    <Content Include="UpdateExperience.aspx" />
     <Content Include="UpdateSkill.aspx" />
     <Content Include="Web.config" />
     <Content Include="web\css\bootstrap.css" />
@@ -107,6 +114,20 @@
     <Content Include="web\w3layouts-License.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEducation.aspx.cs">
+      <DependentUpon>AddEducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEducation.aspx.designer.cs">
+      <DependentUpon>AddEducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddExperience.aspx.cs">
+      <DependentUpon>AddExperience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddExperience.aspx.designer.cs">
+      <DependentUpon>AddExperience.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddSkill.aspx.cs">
       <DependentUpon>AddSkill.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,12 +142,40 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteEducation.aspx.cs">
+      <DependentUpon>DeleteEducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteEducation.aspx.designer.cs">
+      <DependentUpon>DeleteEducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteExperience.aspx.cs">
+      <DependentUpon>DeleteExperience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteExperience.aspx.designer.cs">
+      <DependentUpon>DeleteExperience.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEducation.aspx.cs">
+      <DependentUpon>UpdateEducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateEducation.aspx.designer.cs">
+      <DependentUpon>UpdateEducation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DeleteSkill.aspx.cs">
       <DependentUpon>DeleteSkill.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DeleteSkill.aspx.designer.cs">
       <DependentUpon>DeleteSkill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Education.aspx.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Education.aspx.designer.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
     </Compile>
     <Compile Include="Skill.aspx.cs">
       <DependentUpon>Skill.aspx</DependentUpon>
@@ -190,6 +239,13 @@
     </Compile>
     <Compile Include="UpdateContact.aspx.designer.cs">
       <DependentUpon>UpdateContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateExperience.aspx.cs">
+      <DependentUpon>UpdateExperience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateExperience.aspx.designer.cs">
+      <DependentUpon>UpdateExperience.aspx</DependentUpon>
     </Compile>
     <Compile Include="UpdateSkill.aspx.cs">
       <DependentUpon>UpdateSkill.aspx</DependentUpon>
