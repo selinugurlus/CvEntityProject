@@ -75,6 +75,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddSkill.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="DeleteSkill.aspx" />
     <Content Include="Skill.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Experience.aspx" />
@@ -88,6 +91,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="UpdateContact.aspx" />
+    <Content Include="UpdateSkill.aspx" />
     <Content Include="Web.config" />
     <Content Include="web\css\bootstrap.css" />
     <Content Include="web\css\fontawesome-all.min.css" />
@@ -102,6 +107,27 @@
     <Content Include="web\w3layouts-License.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSkill.aspx.cs">
+      <DependentUpon>AddSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSkill.aspx.designer.cs">
+      <DependentUpon>AddSkill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSkill.aspx.cs">
+      <DependentUpon>DeleteSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteSkill.aspx.designer.cs">
+      <DependentUpon>DeleteSkill.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Skill.aspx.cs">
       <DependentUpon>Skill.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -157,6 +183,20 @@
     </Compile>
     <Compile Include="TBLWORKS.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateContact.aspx.cs">
+      <DependentUpon>UpdateContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateContact.aspx.designer.cs">
+      <DependentUpon>UpdateContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSkill.aspx.cs">
+      <DependentUpon>UpdateSkill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateSkill.aspx.designer.cs">
+      <DependentUpon>UpdateSkill.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

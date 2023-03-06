@@ -23,15 +23,20 @@
               <tr>
                   <td><%# Eval("ID")  %></td>
                   <td><%# Eval("SKILL")  %></td>
-                  <td><a href="#" class="btn btn-danger">Delete</a></td>
-                  <td><a href="#" class="btn btn-success">Update</a></td>
+
+                  <td><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "DeleteSkill.Aspx?ID=" + Eval("ID") %>'
+                      CssClass="btn btn-danger">Delete</asp:HyperLink></td>
+                  <td><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl='<%# "UpdateSkill.Aspx?ID=" + Eval("ID") %>'
+                      CssClass="btn btn-success">Update</asp:HyperLink></td>
 
               </tr>
+              
 
           </ItemTemplate>
       </asp:Repeater>
 
   </table>
+    <a href="AddSkill.Aspx" class="btn btn-primary" style="margin-left:20px">Add New Skill</a>
     
 </asp:Content>
 
